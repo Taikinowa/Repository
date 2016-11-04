@@ -1,0 +1,59 @@
+a:link
+{
+text-decoration: none;
+color: red;
+
+}
+
+s1:hover
+{
+color: yellow;
+background-color:blue;
+}
+
+s2:hover
+{
+color: yellow;
+background-color:blue;
+}
+
+h1
+{
+color: white;
+text-transform: uppercase;
+font-size: 60px;
+}
+
+s1
+{
+font-size:42px;
+color: green;
+}
+
+s2
+{
+font-size:42px;
+color: red;
+}
+
+body
+{
+background-color: rgb(160,255,160);
+}
+
+hr
+{
+width: 5cm;
+height: 20px;
+background-color: blue;
+border: 5px solid red;
+border-radius: 50px;
+}
+
+hr:hover
+{
+width: 5cm;
+height: 20px;
+background-color: black;
+border: 5px solid red;
+}
