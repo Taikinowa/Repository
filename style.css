@@ -99,14 +99,14 @@ border: 3px solid black;
 
 .Sec1
 {
-background-image: url('Fond2.jpg');
+background-image: url('http://zupimages.net/up/17/09/dokn.jpg');
 background-size: cover;
 background-position: center;
 }
 
 .Sec2
 {
-background-image: url('Fond3.jpg');
+background-image: url('http://zupimages.net/up/17/09/6gnd.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -253,7 +253,7 @@ padding : 5px;
 border : 5px solid black; /*Couleur du cadre*/
 border-radius: 20px;
 border-color: black;
-background-image: url('FondX.jpg');
+background-image: url('http://zupimages.net/up/17/09/qao9.jpg');
 text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
 color : red; /* couleur du texte */
 text-decoration : none; 
