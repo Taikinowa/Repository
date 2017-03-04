@@ -1,59 +1,332 @@
-a:link
+table, caption,td,tr,th 
 {
-text-decoration: none;
-color: red;
-
+border: 2px solid black;
+text-align: center;
+padding:2px;
+margin: auto;
 }
 
-s1:hover
+img
 {
-color: yellow;
-background-color:blue;
+border-radius: 50px;
+display: inline-block;
+border: 5px solid black;
 }
 
-s2:hover
+th
 {
-color: yellow;
-background-color:blue;
-}
-
-h1
-{
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+background-color: red;
 color: white;
-text-transform: uppercase;
-font-size: 60px;
+font-size: 22px;
+padding: 5px;
 }
 
-s1
+td
 {
-font-size:42px;
-color: green;
-}
-
-s2
-{
-font-size:42px;
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+background-color: cyan;
+font-size: 22px;
 color: red;
+padding: 10px;
+}
+
+caption
+{
+background-image: linear-gradient(60deg, red, yellow, red,cyan,red,yellow,red);
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+color: white;
+font-size: 22px;
+}
+
+.table
+{
+float: left;
+margin: 1cm 5cm;
+background-color: black;
+}
+
+.stable
+{
+background-color: black;
 }
 
 body
 {
-background-color: rgb(160,255,160);
+/* background-image: url('Fond.jpg'); LYON */
+background-image: url('Nuage.jpg');
+background-size: cover;
+/* background-origin: content-box;
+background-position: 25% 25% 25% 25%;*/
+}
+
+
+{
+cursor: url('STOP.gif'),default;
+}
+
+.number, sub
+{
+color: rgb(95,95,255);
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+font-size: 32px;
+}
+
+h1
+{
+color: rgb(95,255,95);
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px;
+font-size: 42px;
+text-align: center;
 }
 
 hr
 {
-width: 5cm;
-height: 20px;
-background-color: blue;
-border: 5px solid red;
+color: black;
+border: 2px solid black;
+}
+
+p
+{
+color: black;
+font-size: 32px;
+}
+
+tr
+{
+border: 3px solid black;
+}
+
+.Sec1
+{
+background-image: url('Fond2.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.Sec2
+{
+background-image: url('Fond3.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.Cont
+{
+border-radius: 0px;
+}
+
+.Local
+{
+font-variant: small-caps;
+text-transform: capitalize;
+border: 3px solid blue;
+color: yellow;
+background-color: rgb(255,50,50);
+padding: 5px 5px;
+font-size: 32px;
+border-radius: 0px;
+display: inline-block;
+margin: 0% 0% 0% 44%;
+}
+
+section
+{
+border: 3px solid;
 border-radius: 50px;
 }
 
-hr:hover
+.Text
 {
-width: 5cm;
-height: 20px;
-background-color: black;
-border: 5px solid red;
+color: yellow;
+text-decoration: underline rgb(255,50,50);
+text-shadow: none;
 }
+
+aside
+{
+color: black;
+text-align: left;
+float:right;
+border: 5px solid rgb(50,250,255);
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+background-color:rgb(255,50,50);
+padding : 0px 10px;
+border-radius: 0px 0px 0px 50px; 
+text-decoration: underline blue;
+font-size: 30px;
+margin-top: 2cm;
+font-variant: small-caps;
+}
+
+z
+{
+line-height: -40px;
+height: -40px;
+}
+
+iframe
+{
+width: 1200px;
+height: 500px;
+opacity: 1;
+}
+
+l2
+{
+border: 5px solid black;
+padding: 0px 0px;
+text-align: center;
+display: inline-block;
+margin: 0% 0% 0% 10%;
+}
+
+
+i
+{
+text-decoration: underline yellow;
+color: yellow;
+}
+
+
+.Sec3
+{
+background-image: url('Tarif.png');
+}
+
+.euros
+{
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+border: 2px solid black;
+padding: 0px 0px 0px 5px;
+background-color: white;
+}
+
+x
+{
+padding: 0px 0px 0px 5px;
+}
+
+.home
+{
+width: 50px;
+height: 50px;
+float: right;
+margin: auto;
+}
+
+.font
+{
+background-color: black;
+color: red;
+height: 64px;
+
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+#M1,#M1 ul
+{
+padding : 0;
+margin : 0; 
+list-style : none; 
+line-height : 40px;
+text-align : center;
+}
+
+#M1 /* Ensemble du menu */
+{
+font-weight : bold; 
+font-size : 22px; 
+padding: 0;
+margin:0;
+text-align:center;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+
+#M1 a /* Contenu des listes */
+
+{
+display: block;
+padding : 5px; 
+border : 5px solid black; /*Couleur du cadre*/
+border-radius: 20px;
+border-color: black;
+background-image: url('FondX.jpg');
+text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
+color : red; /* couleur du texte */
+text-decoration : none; 
+width : 170px; /* largeur */
+text-align: center;
+display:inline-block;
+margin: 0px 0px 0px 125px;
+}
+
+#M1 li
+{
+float:left;
+display: inline;
+}
+
+html>body #M1 li
+{
+border-right: 1px solid transparent;
+}
+
+#M1 li ul
+{
+position: absolute;
+width: 144px;
+left: -20cm;
+}
+
+#M1 li ul li
+{
+border-top: 1px solid transparent;
+}
+
+html>body #M1 li ul li
+{
+border-right: 2px solid transparent;
+}
+
+/* #M1 li ul ul
+{
+border-left: 10px solid cyan;
+}
+
+  html>body #M1 li ul ul
+{
+border-left: 1px solid transparent;
+color: green;
+}   N AGIT PAS */
+
+/*---------------------------------------------- */
+
+#M1 a:hover
+{
+cursor: url('body.gif'),default;
+color: red;
+text-shadow: yellow 1px 1px, yellow -1px 1px, yellow -1px -1px,yellow 1px -1px ;
+}
+
+
+
+#M1 li:hover ul ul, #M1 li.sfhover ul ul
+
+{
+left: -20px; /* On expédie les sous-sous-listes hors du champ de vision */
+
+}
+
+
+#M1 li:hover ul, #M1 li li:hover ul, #M1 li.sfhover ul, #M1 li li.sfhover ul  
+{
+left:auto;
+min-height: 0;
+}
+
+
+/*________________________________________________________*/
+
