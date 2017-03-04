@@ -61,10 +61,6 @@ background-position: 25% 25% 25% 25%;*/
 }
 
 
-{
-cursor: url('STOP.gif'),default;
-}
-
 .number, sub
 {
 color: rgb(95,95,255);
@@ -306,7 +302,7 @@ color: green;
 
 #M1 a:hover
 {
-cursor: url('body.gif'),default;
+cursor: url('http://zupimages.net/up/17/09/7uzs.gif'),default;
 color: red;
 text-shadow: yellow 1px 1px, yellow -1px 1px, yellow -1px -1px,yellow 1px -1px ;
 }
