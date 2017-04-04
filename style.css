@@ -1,328 +1,74 @@
-table, caption,td,tr,th 
+h2
 {
-border: 2px solid black;
+font-stretch: extra-expanded;
+font-effect: outline;
+font-family: Impact;
 text-align: center;
-padding:2px;
-margin: auto;
+color: black;
+font-size: 92px;
 }
 
-img
+a:link
 {
-border-radius: 50px;
-display: inline-block;
-border: 5px solid black;
+text-decoration:none
 }
 
-th
+em3
 {
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
 background-color: red;
-color: white;
-font-size: 22px;
-padding: 5px;
-}
-
-td
-{
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-background-color: cyan;
-font-size: 22px;
-color: red;
-padding: 10px;
-}
-
-caption
-{
-background-image: linear-gradient(60deg, red, yellow, red,cyan,red,yellow,red);
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-color: white;
-font-size: 22px;
-}
-
-.table
-{
-float: left;
-margin: 1cm 5cm;
-background-color: black;
-}
-
-.stable
-{
-background-color: black;
 }
 
 body
 {
-/* background-image: url('Fond.jpg'); LYON */
-background-image: url('http://zupimages.net/up/17/09/srce.jpg');
-background-size: cover;
-/* background-origin: content-box;
-background-position: 25% 25% 25% 25%;*/
+background-image:url(DN.jpg);
 }
 
-
-.number, sub
+input
 {
-color: rgb(95,95,255);
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-font-size: 32px;
+font-family: Times;
+background-color: yellow;
+color: red;
+font-size: large;
+cursor: grab;
+border: 2px dotted blue;
+margin: 2px 8px;
+vertical-align: middle;
+padding: 0px 8px;
 }
 
-h1
+header
 {
-color: rgb(95,255,95);
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px;
-font-size: 42px;
+background-color: rvb(190,245,250);
+}
+
+input:hover
+{
+color: black;
+background-color: red;
+font-size: large;
+cursor: url('body.gif'),default;
+border: 2px dotted blue;
+margin: 2px 8px;
+vertical-align: middle;
+padding: 0px 8px;
+}
+
+h3
+{
+color: red;
 text-align: center;
-}
-
-hr
-{
-color: black;
-border: 2px solid black;
-}
-
-p
-{
-color: black;
-font-size: 32px;
-}
-
-tr
-{
-border: 3px solid black;
-}
-
-.Sec1
-{
-background-image: url('http://zupimages.net/up/17/09/dokn.jpg');
-background-size: cover;
-background-position: center;
-}
-
-.Sec2
-{
-background-image: url('http://zupimages.net/up/17/09/6gnd.jpg');
-background-size: cover;
-background-position: center;
-}
-
-.Cont
-{
-border-radius: 0px;
-}
-
-.Local
-{
-font-variant: small-caps;
-text-transform: capitalize;
-border: 3px solid blue;
-color: yellow;
-background-color: rgb(255,50,50);
-padding: 5px 5px;
-font-size: 32px;
-border-radius: 0px;
-display: inline-block;
-margin: 0% 0% 0% 44%;
-}
-
-section
-{
-border: 3px solid;
-border-radius: 50px;
-}
-
-.Text
-{
-color: yellow;
-text-decoration: underline rgb(255,50,50);
-text-shadow: none;
-}
-
-aside
-{
-color: black;
-text-align: left;
-float:right;
-border: 5px solid rgb(50,250,255);
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-background-color:rgb(255,50,50);
-padding : 0px 10px;
-border-radius: 0px 0px 0px 50px; 
-text-decoration: underline blue;
 font-size: 30px;
-margin-top: 2cm;
-font-variant: small-caps;
+opacity: 0.9;
 }
 
-z
+em1
 {
-line-height: -40px;
-height: -40px;
+background-image: linear-gradient(black, yellow, black);
+color: black;
 }
 
-iframe
+em2
 {
-width: 1200px;
-height: 500px;
-opacity: 1;
+background-image: linear-gradient(black, blue, black);
+color: white;
 }
-
-l2
-{
-border: 5px solid black;
-padding: 0px 0px;
-text-align: center;
-display: inline-block;
-margin: 0% 0% 0% 10%;
-}
-
-
-i
-{
-text-decoration: underline yellow;
-color: yellow;
-}
-
-
-.Sec3
-{
-background-image: url('http://zupimages.net/up/17/09/jw0l.png');
-}
-
-.euros
-{
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-border: 2px solid black;
-padding: 0px 0px 0px 5px;
-background-color: white;
-}
-
-x
-{
-padding: 0px 0px 0px 5px;
-}
-
-.home
-{
-width: 50px;
-height: 50px;
-float: right;
-margin: auto;
-}
-
-.font
-{
-background-color: black;
-color: red;
-height: 64px;
-
-}
-
-
-/*---------------------------------------------------------------------------------------------------*/
-#M1,#M1 ul
-{
-padding : 0;
-margin : 0; 
-list-style : none; 
-line-height : 40px;
-text-align : center;
-}
-
-#M1 /* Ensemble du menu */
-{
-font-weight : bold; 
-font-size : 22px; 
-padding: 0;
-margin:0;
-text-align:center;
-font-variant: small-caps;
-text-transform: uppercase;
-}
-
-#M1 a /* Contenu des listes */
-
-{
-display: block;
-padding : 5px; 
-border : 5px solid black; /*Couleur du cadre*/
-border-radius: 20px;
-border-color: black;
-background-image: url('http://zupimages.net/up/17/09/qao9.jpg');
-text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,black 1px -1px ;
-color : red; /* couleur du texte */
-text-decoration : none; 
-width : 170px; /* largeur */
-text-align: center;
-display:inline-block;
-margin: 0px 0px 0px 125px;
-}
-
-#M1 li
-{
-float:left;
-display: inline;
-}
-
-html>body #M1 li
-{
-border-right: 1px solid transparent;
-}
-
-#M1 li ul
-{
-position: absolute;
-width: 144px;
-left: -20cm;
-}
-
-#M1 li ul li
-{
-border-top: 1px solid transparent;
-}
-
-html>body #M1 li ul li
-{
-border-right: 2px solid transparent;
-}
-
-/* #M1 li ul ul
-{
-border-left: 10px solid cyan;
-}
-
-  html>body #M1 li ul ul
-{
-border-left: 1px solid transparent;
-color: green;
-}   N AGIT PAS */
-
-/*---------------------------------------------- */
-
-#M1 a:hover
-{
-cursor: url('http://zupimages.net/up/17/09/7uzs.gif'),default;
-color: red;
-text-shadow: yellow 1px 1px, yellow -1px 1px, yellow -1px -1px,yellow 1px -1px ;
-}
-
-
-
-#M1 li:hover ul ul, #M1 li.sfhover ul ul
-
-{
-left: -20px; /* On expédie les sous-sous-listes hors du champ de vision */
-
-}
-
-
-#M1 li:hover ul, #M1 li li:hover ul, #M1 li.sfhover ul, #M1 li li.sfhover ul  
-{
-left:auto;
-min-height: 0;
-}
-
-
-/*________________________________________________________*/
-
